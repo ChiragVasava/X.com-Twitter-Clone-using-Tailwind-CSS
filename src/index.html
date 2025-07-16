@@ -3,36 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>X.com (Twitter) Clone using Tailwind CSS</title>
+  <title>Home/X</title>
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <link href="output.css" rel="stylesheet">
 </head>
-<body>
+  
+<body class="bg-black text-white">
+  <div class="flex container mx-auto">
+    <div class="first w-full">
 
-    <div class="flex">
-    <div class="first bg-slate-300 w-full"><svg viewBox="0 0 24 24" aria-hidden="true"
-        class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-        <g>
-          <path
-            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-          </path>
-        </g>
-      </svg>
-    </div>
-      
-    <ul class="flex flex-col">
-
-      <li class="flex items-center gap-3 p-2">
+      <div class="logo invert">
         <svg viewBox="0 0 24 24" aria-hidden="true"
-          class="w-6 h-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+          class="w-8">
           <g>
             <path
-              d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913H9.14c.51 0 .929-.41.929-.913v-7.075h3.909v7.075c0 .502.417.913.928.913h6.165c.511 0 .929-.41.929-.913V7.904c0-.301-.158-.584-.408-.758z">
+              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
             </path>
           </g>
-        </svg> <span class="hidden md:block">Home</span>
-      </li>
+        </svg>
+
+        <div class="sidebar">
+        
+    <ul class="flex flex-col">
+
+     <ul class="flex flex-col text-xl space-y-3">
+
+            <li class="flex justify-center items-center gap-3">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="w-12">
+                <g>
+                  <path
+                    d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913H9.14c.51 0 .929-.41.929-.913v-7.075h3.909v7.075c0 .502.417.913.928.913h6.165c.511 0 .929-.41.929-.913V7.904c0-.301-.158-.584-.408-.758z">
+                  </path>
+                </g>
+              </svg>
+              <span class="hidden md:block invert">Home</span>
+            </li>
+       
 
             <li>
         <svg viewBox="0 0 24 24" aria-hidden="true"
