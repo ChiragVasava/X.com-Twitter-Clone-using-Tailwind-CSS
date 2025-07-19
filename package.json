@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "first": "npm install tailwindcss @tailwindcss/cli",
     "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
-    "config": "npm install postcss-preset-env --save-dev"
+    "config": "npm install postcss-preset-env --save-dev",
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,8 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
     "express": "^5.1.0",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.5"
   },
   "devDependencies": {
     "postcss-preset-env": "^10.2.4"
