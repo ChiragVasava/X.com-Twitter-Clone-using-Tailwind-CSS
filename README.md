@@ -2,9 +2,6 @@
 
 🚀 A responsive **Twitter (X.com)** front-end clone built entirely using **HTML5**, **CSS3**, and **Tailwind CSS**. This project mimics the layout and design of Twitter’s modern interface, offering a clean and minimal UI for social media platforms. Built with the goal of mastering Tailwind’s utility-first CSS approach, this clone is a fully static front-end template without any backend or dynamic functionality.
 
-> 📌 **Live Preview (Optional):** Coming Soon
-
----
 
 ## 🔗 Repository
 
@@ -55,18 +52,29 @@ in the root dictionary, create a folder named src, then add these files in it:
 @tailwind components;
 @tailwind utilities;
 ```
+
 ## 📦 Install Dependencies
+
 Run the following commands to install required packages:
 ```bash
 npm install tailwindcss @tailwindcss/cli
+```
+```bash
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+```
+```bash
 npm install postcss-preset-env --save-dev
 ```
 Or use built-in scripts from package.json:
 
 ```bash
 npm run first
+```
+```bash
+npm run build
+```
+```bash
 npm run config
-
 ```
 
 ## 🛠️ Scripts (inside package.json)
@@ -92,8 +100,9 @@ Make sure your index.html file links to output.css & input.css:
 ```
 
 ## 📁 Folder Structure
+Root Folder<br>
 │<br>
-├── src<br>
+│── src Folder<br>
 │ ├── index.html # Main HTML file<br>
 │ ├── input.css # Tailwind input file<br>
 │ ├── output.css # Tailwind compiled file<br>
@@ -112,10 +121,6 @@ Make sure your index.html file links to output.css & input.css:
 <li>Clean and modular structure</li>
 <li>Easy to extend with new components or layouts</li>
 </ul>
-
-## 📸 Screenshots
-
-## 📽️ Video
 
 ## 💡 Future Enhancements
 <ul>
@@ -140,3 +145,12 @@ This project is licensed under the <a href="[LICENSE](https://mit-license.org)">
 </ul>
 
 ## ✨ Made with 💻 by <a href="https://github.com/ChiragVasava">Chirag Vasava </a> 
+
+> 📌 **Live Preview :**
+## 📸 Screenshots
+![Screenshot](img/Twitter(X).png)
+
+## 📽️ Video
+https://github.com/user-attachments/assets/23b70f8a-586a-40be-8f20-b95c096081d4
+
+---
